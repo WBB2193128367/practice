@@ -7,3 +7,4 @@ class Student{
     $this->name=$name;
     }
 }
+$student=new Student(12,王保保);
