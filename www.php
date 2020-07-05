@@ -9,7 +9,8 @@ class Student{
     $this->number=$number;
     }
 }
-$student=new Student(12,王保保);
+$student=new Student(12,王保保,2017122107505);
 var_dump($student->name);
 var_dump($student->age);
+var_dump($student->number);
 var_dump($student);
