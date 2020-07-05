@@ -8,3 +8,6 @@ class Student{
     }
 }
 $student=new Student(12,王保保);
+var_dump($student->name);
+var_dump($student->age);
+var_dump($student);
